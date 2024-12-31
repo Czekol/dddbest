@@ -1,0 +1,58 @@
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../assets/fonts/roboto-v32-latin_latin-ext-regular.woff2') format('woff2');
+}
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../../assets/fonts/roboto-v32-latin_latin-ext-700.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../assets/fonts/playfair-display-v37-latin_latin-ext-regular.woff2') format('woff2');
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	overflow-x: hidden;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	scroll-padding-top: 12.3rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	height: auto;
+}
+
+
+button {
+	border: none;
+	font-family: inherit;
+	background: none;
+	cursor: pointer;
+}

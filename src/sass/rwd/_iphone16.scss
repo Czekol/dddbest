@@ -1,0 +1,304 @@
+@media (width >= 380px) {
+	html {
+		scroll-padding-top: 13rem;
+	}
+
+	body {
+		font-size: 1.7rem;
+	}
+
+	.nav {
+		padding: 0 3rem 0 2.5rem;
+		height: 77px;
+
+		&__logo {
+			width: 73px;
+		}
+
+		&__hamburger {
+			width: 36px;
+			height: 28px;
+		}
+
+		&__links {
+			top: 77px;
+			padding-top: 14rem;
+
+			&-link {
+				margin-bottom: 7rem;
+				font-size: 3rem;
+			}
+		}
+	}
+
+	.header {
+		margin-top: 77px;
+		&__hero-img {
+			height: 265px;
+		}
+
+		&__box {
+			margin-top: 4rem;
+			padding-inline: 3rem;
+
+			&-headline {
+				max-width: 337px;
+				font-size: 2.8rem;
+				line-height: 46px;
+			}
+
+			&-text {
+				margin: 1rem 0 5.5rem;
+				max-width: 319px;
+				line-height: 30px;
+			}
+
+			&-btn {
+				padding: 2.1rem 4.2rem;
+				font-size: 1.6rem;
+			}
+		}
+	}
+
+	.main {
+		.section-heading {
+			margin: 10.5rem 0 8.5rem;
+			font-size: 3rem;
+		}
+
+		.offer {
+			&__box {
+				&-img {
+					width: 60px;
+				}
+
+				&-headline {
+					font-size: 2.7rem;
+				}
+
+				&-text {
+					max-width: 272px;
+					line-height: 30px;
+				}
+
+				&-link {
+					font-size: 1.7rem;
+				}
+			}
+		}
+
+		.stand-out {
+			&__box {
+				&-img {
+					width: 60px;
+				}
+
+				&-headline {
+					font-size: 2.7rem;
+				}
+
+				&-text {
+					max-width: 295px;
+					line-height: 30px;
+				}
+			}
+
+			&__info {
+				margin-top: 4.5rem;
+				font-size: 1.9rem;
+			}
+		}
+
+		.audit {
+			margin-top: 10.5rem;
+			padding-inline: 3rem;
+
+			&__headline {
+				margin-top: 5.2rem;
+				font-size: 3.2rem;
+				line-height: 56px;
+			}
+
+			&__text {
+				padding: 1rem 0 6rem;
+				max-width: 333px;
+				line-height: 30px;
+			}
+
+			&__btn {
+				margin: 7.5rem 0 6.7rem;
+				padding: 2.1rem 4.2rem;
+				font-size: 1.7rem;
+			}
+		}
+
+		.features {
+			&__container {
+				&:nth-of-type(2) {
+					margin-block: 8rem;
+				}
+			}
+
+			&__headline {
+				font-size: 2.7rem;
+			}
+
+			&__text {
+				padding: 2.5rem 3rem 5rem;
+				line-height: 32px;
+			}
+
+			&__img {
+				height: 310px;
+			}
+
+			&__contains {
+				font-size: 2.4rem;
+			}
+
+			&__box {
+				padding-bottom: 1rem;
+			}
+		}
+
+		.monitoring {
+			&__img {
+				height: 310px;
+				object-position: 50% 0%;
+			}
+
+			&__box {
+				margin-bottom: 6.5rem;
+				padding-inline: 3rem;
+				&-headline {
+					margin-bottom: 1.3rem;
+					font-size: 2.2rem;
+					line-height: 36px;
+				}
+
+				&-text {
+					line-height: 30px;
+				}
+			}
+		}
+
+		.reviews {
+			margin-top: 10.5rem;
+			padding: 6.9rem 3rem 7.5rem;
+
+			&__box {
+				&-icon {
+					width: 67px;
+				}
+
+				&-text {
+					font-size: 1.8rem;
+					line-height: 32px;
+				}
+
+				&-name {
+					font-size: 1.8rem;
+				}
+			}
+		}
+
+		.faq {
+			padding-inline: 3rem;
+
+			&__box {
+				margin-bottom: 3.1rem;
+
+				&-question {
+					font-size: 2.1rem;
+				}
+
+				&-icon {
+					width: 30px;
+				}
+			}
+		}
+	}
+
+	.footer {
+		margin-top: 10.5rem;
+
+		&__nav {
+			padding-inline: 3rem;
+			height: 85px;
+
+			&-icon {
+				width: 39.66px;
+				height: 39.56px;
+			}
+
+			&-link {
+				font-size: 2rem;
+			}
+		}
+
+		&__body {
+			font-size: 1.8rem;
+		}
+
+		&__left-box {
+			&-icon {
+				width: 26.14px;
+				height: 30.5px;
+			}
+
+			&-text {
+				max-width: 218px;
+			}
+		}
+
+		&__right-box {
+			&-link {
+				&-phone-icon {
+					width: 16.1px;
+					height: 16.1px;
+				}
+
+				&-gmail-icon {
+					width: 16.11px;
+					height: 13.5px;
+				}
+			}
+		}
+
+		&__copyright {
+			height: 85px;
+		}
+	}
+
+	.subpage {
+		padding-inline: 3rem;
+
+		.about {
+			margin-top: 18.2rem;
+
+			&__img {
+				height: 450px;
+			}
+
+			&__box {
+				line-height: 30px;
+
+				&-text {
+					&:nth-child(1) {
+						margin-bottom: 2rem;
+					}
+				}
+			}
+		}
+
+		.certificates {
+			&__box {
+				gap: 2rem;
+
+				&-img {
+					width: calc(50% - 10px);
+				}
+			}
+		}
+	}
+}
